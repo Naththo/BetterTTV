@@ -359,4 +359,8 @@ var takeover = module.exports = function() {
             }
         }
     });
+	
+    $(".tse-content").on("click", ".chat-line", function(e) {
+        debug.log("hello?");
+	});
 }
